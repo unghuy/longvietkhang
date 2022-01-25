@@ -1,3 +1,10 @@
+AOS.init({
+  duration: 1250,
+  // useClassNames: true,
+  // initClassName: false,
+  // animatedClassName: 'animated',
+});
+
 $(document).ready(function () {
   $('ul li a').click(function () {
     $('li a').removeClass("current-menu-item");
