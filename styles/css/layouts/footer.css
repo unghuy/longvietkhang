@@ -1,0 +1,21 @@
+.footer-container {
+  padding: 80px 0;
+}
+.footer-container .c-row .c-column_widget-container {
+  padding-bottom: 30px;
+}
+.footer-container .c-row .c-column_widget-container .c-text-content {
+  font-family: "Poppins", Sans-serif;
+  color: #000;
+}
+.footer-container .c-row .c-column_widget-container .c-text-content p {
+  padding-bottom: 18px;
+}
+.footer-container .c-row .c-column_widget-container .c-text-content span {
+  font-size: 16px;
+  font-weight: 300;
+}
+.footer-container .c-row .c-column_social-icons-wrapper {
+  width: 100%;
+  justify-content: center;
+}

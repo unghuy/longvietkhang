@@ -1,0 +1,74 @@
+.header-container {
+  background-color: #f0f0f0;
+  color: #fff;
+}
+.header-container::before {
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
+.header-container_wrap {
+  padding: 15px 0;
+}
+.header-container .bg-blue {
+  background-color: #2091f7;
+}
+.header-container .header-content {
+  display: flex;
+  justify-content: space-around;
+}
+.header-container .header-contact {
+  display: flex;
+  width: 100%;
+}
+.header-container .header-contact_phone,
+.header-container .header-contact_email {
+  padding: 0 15px;
+}
+.header-container .header-contact_phone i,
+.header-container .header-contact_email i {
+  font-size: 21px;
+  padding-right: 15px;
+}
+.header-container .space-between-content {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+}
+.header-container .site-branding img {
+  width: 100%;
+  max-height: 70px;
+}
+/* Menu navigation */
+.main-navigation {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+.main-navigation .menu > li {
+  display: inline-block;
+  padding: 3px;
+  margin-left: 10px;
+}
+.main-navigation .menu > li a {
+  color: #333;
+  font-size: 17px;
+  line-height: 15px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.main-navigation .menu > li a:hover {
+  color: #2091f7;
+}
+.main-navigation .menu > li .current-menu-item {
+  color: #2091f7;
+}
+[aria-current]:not([aria-current="page"]) {
+  color: #2091f7;
+}
