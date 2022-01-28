@@ -3,9 +3,9 @@
     max-width: 750px;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
   .container {
-    max-width: 970px;
+    max-width: 1024px;
   }
 }
 @media screen and (min-width: 1200px) {
