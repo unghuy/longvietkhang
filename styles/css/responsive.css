@@ -13,6 +13,16 @@
     max-width: 1200px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .section03 .c-row .c-advantag .c-column_wrap {
+    padding-left: 150px;
+  }
+  .section07 .c-row .c-column_wrap {
+    padding-left: 150px;
+  }
+}
+
 /* gallery */
 @media screen and (min-width: 380px) {
   .section05 .c-content .c-images-layout_item {
