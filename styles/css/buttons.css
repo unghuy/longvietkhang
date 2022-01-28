@@ -49,22 +49,22 @@
 /* Submit Contact */
 .c-column_contact-form p > .btn-submit {
   font-family: "Montserrat", Sans-serif;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 700;
   line-height: 1.714em;
   letter-spacing: 2px;
   text-transform: uppercase;
   background-color: rgba(68, 123, 224, 0.01);
-  color: #f7992b;
-  padding: 18px 40px;
+  color: #2091f7;
+  padding: 12px 35px;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  border-color: #f7992b;
+  border-color: #2091f7;
   border-radius: 0px 0px 0px 0px;
   margin: 20px 0px 0px 0px;
   transition: all 0.3s ease;
 }
 .c-column_contact-form p > .btn-submit:hover {
-  background-color: #f7992b;
+  background-color: #2091f7;
   color: #ffffff;
 }

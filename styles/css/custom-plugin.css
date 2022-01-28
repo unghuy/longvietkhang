@@ -133,7 +133,7 @@
 }
 @media screen and (min-width: 768px) {
   [data-aos="fade-in-left"] {
-    transform: translate3d(50%, 0, 0);
+    transform: translate3d(200px, 0, 0);
   }
   [data-aos="fade-in-left"].aos-animate {
     transform: translateX(0);
@@ -151,7 +151,7 @@
 }
 @media screen and (min-width: 768px) {
   [data-aos="fade-in-right"] {
-    transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-200px, 0, 0);
   }
   [data-aos="fade-in-right"].aos-animate {
     transform: translateX(0);
@@ -168,7 +168,7 @@
 }
 @media screen and (min-width: 768px) {
   [data-aos="fade-in-down"] {
-    transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -200px, 0);
   }
   [data-aos="fade-in-down"].aos-animate {
     transform: translateX(0);
